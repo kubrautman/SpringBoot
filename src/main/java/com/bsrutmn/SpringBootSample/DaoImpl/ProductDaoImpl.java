@@ -2,9 +2,6 @@ package com.bsrutmn.SpringBootSample.DaoImpl;
 
 import java.util.List;
 
-import javax.persistence.EntityManager;
-
-import org.hibernate.Session;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
