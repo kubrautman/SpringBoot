@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bsrutmn.SpringBootSample.Dao.ProductDao;
+import com.bsrutmn.SpringBootSample.Entities.ProductLines;
 import com.bsrutmn.SpringBootSample.Entities.Products;
 import com.bsrutmn.SpringBootSample.Service.ProductService;
 
@@ -36,6 +37,11 @@ public class ProductServiceImpl  implements ProductService{
 	public void deleteProduct(String productCode) {
 		// TODO Auto-generated method stub
 		
+	}
+
+	@Override
+	public List<ProductLines> getProductLines() {
+		return productDao.getProductLines();
 	}
 
 }

@@ -25,6 +25,11 @@ public class ProductController {
 	public List<Products> getProducts() {
 		return productService.getAllProduct();
 	}
+	
+	@RequestMapping(value = "/productLines", method = RequestMethod.GET)
+	public List<ProductLines> getProductLines() {
+		return productService.getProductLines();
+	}
 
 	@RequestMapping(value = "/customer", method = RequestMethod.GET)
 	public String getCustomer() {
