@@ -1,11 +1,11 @@
-package com.kubrautman.SpringBootSample.RowMappers;
+package com.bsrutmn.SpringBootSample.RowMappers;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.kubrautman.SpringBootSample.Entities.Products;
+import com.bsrutmn.SpringBootSample.Entities.Products;
 
 public class ProductsRowMapper implements RowMapper<Products> {
 
@@ -23,5 +23,5 @@ public class ProductsRowMapper implements RowMapper<Products> {
 		product.setmSRP(rs.getDouble("mSRP"));
 		return product;
 	}
- 
+
 }

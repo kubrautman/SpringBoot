@@ -1,4 +1,4 @@
-package com.kubrautman.SpringBootSample.Entities;
+package com.bsrutmn.SpringBootSample.Entities;
 
 import java.math.BigDecimal;
 

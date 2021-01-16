@@ -1,17 +1,13 @@
-package com.kubrautman.SpringBootSample.Rest;
+package com.bsrutmn.SpringBootSample.Rest;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.kubrautman.SpringBootSample.Entities.*;
-import com.kubrautman.SpringBootSample.Service.ProductService;
+import com.bsrutmn.SpringBootSample.Entities.*;
+import com.bsrutmn.SpringBootSample.Service.ProductService;
 
 @RestController
 @RequestMapping("/product")
@@ -35,17 +31,9 @@ public class ProductController {
 		return productService.getProductLines();
 	}
 
-
-	@RequestMapping(value = "/product", method = RequestMethod.GET)
-	@ResponseBody
-	public List<Products> retrieveProductsByProductLine(@RequestParam("productLine") String productLine){
-		return productService.retrieveProductsByProductLine(productLine);
-	}
-	
-	@RequestMapping(value = "/add", method = RequestMethod.POST)
-	public void addProduct(@RequestBody Products products){
-		
-		productService.addProduct(products);
+	@RequestMapping(value = "/customer", method = RequestMethod.GET)
+	public String getCustomer() {
+		return "customer";
 	}
 
 }
