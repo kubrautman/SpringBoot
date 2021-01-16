@@ -1,14 +1,14 @@
-package com.bsrutmn.SpringBootSample.ServiceImpl;
+package com.kubrautman.SpringBootSample.ServiceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bsrutmn.SpringBootSample.Dao.ProductDao;
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
-import com.bsrutmn.SpringBootSample.Service.ProductService;
+import com.kubrautman.SpringBootSample.Dao.ProductDao;
+import com.kubrautman.SpringBootSample.Entities.ProductLines;
+import com.kubrautman.SpringBootSample.Entities.Products;
+import com.kubrautman.SpringBootSample.Service.ProductService;
 
 @Service
 public class ProductServiceImpl  implements ProductService{
@@ -22,8 +22,8 @@ public class ProductServiceImpl  implements ProductService{
 	}
 
 	@Override
-	public void addProduct() {
-		// TODO Auto-generated method stub
+	public void addProduct(Products products) {
+		productDao.addProduct(products);
 		
 	}
 
@@ -42,6 +42,12 @@ public class ProductServiceImpl  implements ProductService{
 	@Override
 	public List<ProductLines> getProductLines() {
 		return productDao.getProductLines();
+	}
+
+	@Override
+	public List<Products> retrieveProductsByProductLine(String productLine) {
+		// TODO Auto-generated method stub
+		return productDao.retrieveProductsByProductLine(productLine);
 	}
 
 }

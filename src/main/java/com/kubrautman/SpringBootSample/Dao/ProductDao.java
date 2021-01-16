@@ -1,9 +1,9 @@
-package com.bsrutmn.SpringBootSample.Dao;
+package com.kubrautman.SpringBootSample.Dao;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
+import com.kubrautman.SpringBootSample.Entities.ProductLines;
+import com.kubrautman.SpringBootSample.Entities.Products;
 
 public interface ProductDao {
 	List<Products> getAllProduct();
@@ -18,4 +18,7 @@ public interface ProductDao {
 	
 	List<Products> getProductByLine(String productLine);
 	
+	List<Products> retrieveProductsByProductLine(String productLine);
+
+	void addProduct(Products products);
 }

@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.Entities;
+package com.kubrautman.SpringBootSample.Entities;
 
 import javax.persistence.*;
 
@@ -6,6 +6,7 @@ import javax.persistence.*;
 @Table(name = "products")
 public class Products {
 	@Id
+    @GeneratedValue
 	@Column(name = "productCode")
 	private String productCode;
 	

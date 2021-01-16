@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.Entities;
+package com.kubrautman.SpringBootSample.Entities;
 
 import javax.persistence.*;
 
