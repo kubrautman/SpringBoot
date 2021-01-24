@@ -1,8 +1,8 @@
-package com.bsrutmn.SpringBootSample.Service;
+package com.utmn.SpringBootSample.Service;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.City;
+import com.utmn.SpringBootSample.Entities.City;
 
 
 public interface CityService {

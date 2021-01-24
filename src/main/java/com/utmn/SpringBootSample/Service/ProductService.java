@@ -1,9 +1,9 @@
-package com.bsrutmn.SpringBootSample.Service;
+package com.utmn.SpringBootSample.Service;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
+import com.utmn.SpringBootSample.Entities.ProductLines;
+import com.utmn.SpringBootSample.Entities.Products;
 
 public interface ProductService {
 

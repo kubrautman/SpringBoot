@@ -1,8 +1,8 @@
-package com.bsrutmn.SpringBootSample.Dao;
+package com.utmn.SpringBootSample.Dao;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.*;
+import com.utmn.SpringBootSample.Entities.*;
 
 public interface CityDao {
 	List<City> getAllCity();

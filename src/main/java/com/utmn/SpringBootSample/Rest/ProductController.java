@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.Rest;
+package com.utmn.SpringBootSample.Rest;
 
 import java.util.List;
 
@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import com.bsrutmn.SpringBootSample.Entities.*;
-import com.bsrutmn.SpringBootSample.Service.ProductService;
+import com.utmn.SpringBootSample.Entities.*;
+import com.utmn.SpringBootSample.Service.ProductService;
 
 @RestController
 @RequestMapping("/product")

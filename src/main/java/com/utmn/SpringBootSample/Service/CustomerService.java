@@ -1,8 +1,8 @@
-package com.bsrutmn.SpringBootSample.Service;
+package com.utmn.SpringBootSample.Service;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.Customers;
+import com.utmn.SpringBootSample.Entities.Customers;
 
 public interface CustomerService {
 

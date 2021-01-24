@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.DaoImpl;
+package com.utmn.SpringBootSample.DaoImpl;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import com.bsrutmn.SpringBootSample.Dao.CityDao;
-import com.bsrutmn.SpringBootSample.Entities.City;
+import com.utmn.SpringBootSample.Dao.CityDao;
+import com.utmn.SpringBootSample.Entities.*;
 
 @Repository
 public class CityDaoImpl implements CityDao {

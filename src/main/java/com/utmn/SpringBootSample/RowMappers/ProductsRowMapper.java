@@ -1,11 +1,11 @@
-package com.bsrutmn.SpringBootSample.RowMappers;
+package com.utmn.SpringBootSample.RowMappers;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.bsrutmn.SpringBootSample.Entities.Products;
+import com.utmn.SpringBootSample.Entities.Products;
 
 public class ProductsRowMapper implements RowMapper<Products> {
 

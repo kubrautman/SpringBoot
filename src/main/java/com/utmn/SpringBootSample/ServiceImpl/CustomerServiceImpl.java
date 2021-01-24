@@ -1,13 +1,13 @@
-package com.bsrutmn.SpringBootSample.ServiceImpl;
+package com.utmn.SpringBootSample.ServiceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bsrutmn.SpringBootSample.Dao.CustomerDao;
-import com.bsrutmn.SpringBootSample.Entities.Customers;
-import com.bsrutmn.SpringBootSample.Service.CustomerService;
+import com.utmn.SpringBootSample.Dao.CustomerDao;
+import com.utmn.SpringBootSample.Entities.Customers;
+import com.utmn.SpringBootSample.Service.CustomerService;
 
 @Service
 public class CustomerServiceImpl implements CustomerService{

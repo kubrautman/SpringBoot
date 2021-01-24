@@ -1,13 +1,13 @@
-package com.bsrutmn.SpringBootSample.ServiceImpl;
+package com.utmn.SpringBootSample.ServiceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bsrutmn.SpringBootSample.Dao.CityDao;
-import com.bsrutmn.SpringBootSample.Entities.City;
-import com.bsrutmn.SpringBootSample.Service.CityService;
+import com.utmn.SpringBootSample.Dao.CityDao;
+import com.utmn.SpringBootSample.Entities.City;
+import com.utmn.SpringBootSample.Service.CityService;
 @Service
 public class CityServiceImpl implements CityService {
 

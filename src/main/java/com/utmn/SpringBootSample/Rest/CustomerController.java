@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.Rest;
+package com.utmn.SpringBootSample.Rest;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bsrutmn.SpringBootSample.Entities.Customers;
-import com.bsrutmn.SpringBootSample.Service.CustomerService;
+import com.utmn.SpringBootSample.Entities.Customers;
+import com.utmn.SpringBootSample.Service.CustomerService;
 
 @RestController
 @RequestMapping("/customer")

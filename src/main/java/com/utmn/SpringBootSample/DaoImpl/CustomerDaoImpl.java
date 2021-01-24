@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.DaoImpl;
+package com.utmn.SpringBootSample.DaoImpl;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import javax.transaction.Transactional;
 import org.hibernate.Session;
 import org.springframework.stereotype.Repository;
 
-import com.bsrutmn.SpringBootSample.Dao.CustomerDao;
-import com.bsrutmn.SpringBootSample.Entities.Customers;
+import com.utmn.SpringBootSample.Dao.CustomerDao;
+import com.utmn.SpringBootSample.Entities.Customers;
 
 @Repository
 public class CustomerDaoImpl implements CustomerDao{

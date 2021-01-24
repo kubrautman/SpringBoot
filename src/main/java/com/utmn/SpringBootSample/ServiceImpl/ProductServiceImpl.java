@@ -1,14 +1,14 @@
-package com.bsrutmn.SpringBootSample.ServiceImpl;
+package com.utmn.SpringBootSample.ServiceImpl;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bsrutmn.SpringBootSample.Dao.ProductDao;
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
-import com.bsrutmn.SpringBootSample.Service.ProductService;
+import com.utmn.SpringBootSample.Dao.ProductDao;
+import com.utmn.SpringBootSample.Entities.ProductLines;
+import com.utmn.SpringBootSample.Entities.Products;
+import com.utmn.SpringBootSample.Service.ProductService;
 
 @Service
 public class ProductServiceImpl  implements ProductService{

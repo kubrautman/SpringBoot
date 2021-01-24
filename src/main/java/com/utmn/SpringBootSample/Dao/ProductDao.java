@@ -1,9 +1,8 @@
-package com.bsrutmn.SpringBootSample.Dao;
+package com.utmn.SpringBootSample.Dao;
 
 import java.util.List;
 
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
+import com.utmn.SpringBootSample.Entities.*;
 
 public interface ProductDao {
 	List<Products> getAllProduct();

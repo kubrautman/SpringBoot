@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.Rest;
+package com.utmn.SpringBootSample.Rest;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bsrutmn.SpringBootSample.Entities.*;
-import com.bsrutmn.SpringBootSample.Service.CityService;
+import com.utmn.SpringBootSample.Entities.*;
+import com.utmn.SpringBootSample.Service.CityService;
 
 @RestController
 @RequestMapping("/city")

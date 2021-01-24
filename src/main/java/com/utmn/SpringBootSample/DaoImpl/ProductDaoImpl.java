@@ -1,4 +1,4 @@
-package com.bsrutmn.SpringBootSample.DaoImpl;
+package com.utmn.SpringBootSample.DaoImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import java.util.Map;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import com.bsrutmn.SpringBootSample.Dao.ProductDao;
-import com.bsrutmn.SpringBootSample.Entities.ProductLines;
-import com.bsrutmn.SpringBootSample.Entities.Products;
-import com.bsrutmn.SpringBootSample.RowMappers.ProductsRowMapper;
+import com.utmn.SpringBootSample.Dao.ProductDao;
+import com.utmn.SpringBootSample.Entities.ProductLines;
+import com.utmn.SpringBootSample.Entities.Products;
+import com.utmn.SpringBootSample.RowMappers.ProductsRowMapper;
 import com.mysql.cj.jdbc.Blob;
 
 @Repository
